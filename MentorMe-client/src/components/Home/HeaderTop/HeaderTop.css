@@ -1,0 +1,14 @@
+.image-container {
+    position: relative;
+    
+    overflow: hidden;
+}
+
+.image-container img {
+  
+    transition: filter 0.3s; /* Add a smooth transition effect */
+}
+
+.image-container:hover img {
+    filter: drop-shadow(5px 5px 5px rgba(0.5, 0.5, 0.5, 0)) blur(0px); /* Adjust the values as needed */
+}
